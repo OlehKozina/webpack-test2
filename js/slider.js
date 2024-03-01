@@ -64,7 +64,7 @@ const infiniteScroll = () => {
     carousel.classList.remove("no-transition");
   }
   // Clear existing timeout & start autoplay if mouse is not hovering over carousel
-  clearTimeout(timeoutId);
+  //   clearTimeout(timeoutId);
 };
 
 carousel.addEventListener("mousedown", dragStart);
