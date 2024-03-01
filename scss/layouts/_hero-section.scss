@@ -1,84 +1,75 @@
-.hero-section{
-    padding: 100px 0;
-    // background: linear-gradient(0deg, #FFFFFF 1.62%, rgba(255, 255, 255, 0.850898) 5.31%, rgba(255, 255, 255, 0.193204) 58.65%, rgba(255, 255, 255, 0) 72.78%), url('../html_images/hero-title_image.jpg');
+.hero-section {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  height: 424px;
+
+  position: relative;
+
+  @media screen and (min-width: $bp-tablet) {
+    height: 824px;
+  }
+  @media screen and (min-width: $bp-desktop) {
+    height: 1024px;
+  }
+
+  &__name {
+    font-size: 21px;
+    margin-bottom: 16px;
+    color: var(--color_secondary_dark);
+    padding-left: 10px;
+    margin: 0;
+    text-align: center;
+    @media screen and (min-width: $bp-desktop) {
+      text-align: start;
+    }
+  }
+
+  &__title {
+    color: var(--color_secondary_light);
+    font-family: "Play", sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 1;
+    margin-top: 0;
+    text-align: center;
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 90px;
+    }
+    @media screen and (min-width: $bp-desktop) {
+      text-align: start;
+      max-width: 529px;
+      font-size: 120px;
+    }
+  }
+
+  &__button {
     display: flex;
-    flex-direction: column;
-    align-items: left;
+    margin: 20px auto;
+    max-width: 219px;
+    align-items: center;
     justify-content: center;
-    height: 424px;
 
- 
-    position: relative;
-    
-    @media screen and (min-width:$bp-tablet){
-        // background-size: cover; 
-        height: 824px;
-    
+    @media screen and (min-width: $bp-desktop) {
+      margin: 20px 0;
     }
-    @media screen and (min-width:$bp-desktop){
-        height: 1024px;
+  }
+
+  &__under_call_button {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+    @media screen and (min-width: $bp-desktop) {
+      text-align: start;
+      max-width: 238px;
     }
-
-
-    &__name{
-        font-size: 21px;
-        margin-bottom: 16px;
-        color: var(--color_secondary_dark);
-        padding-left: 10px;
-        margin: 0;
-        text-align: center;
-        @media screen and (min-width:$bp-desktop){
-            text-align: start;
-        }
-
-    }
-
-    &__title{
-        color: var(--color_secondary_light);
-        font-family: 'Play', sans-serif;
-        font-size: 54px;
-        font-weight: 700;
-        margin-bottom: 0;
-        line-height: 1;
-        margin-top: 0;
-        text-align: center;
-        @media screen and (min-width:$bp-tablet){
-            font-size: 90px;
-        }
-        @media screen and (min-width:$bp-desktop){
-            text-align: start;
-            max-width: 529px;
-            font-size: 120px;
-        }
-    }
-
-    &__button{
-        display: flex;
-       margin: 20px auto;
-       max-width: 219px;
-       align-items: center;
-       justify-content: center;
-       
-       @media screen and (min-width:$bp-desktop){
-        margin: 20px 0;
-       }
-
-    }
-
-    &__under_call_button{
-        font-weight: 400;
-        font-size: 12px;
-        margin-top: 20px;
-        text-align: center;
-        @media screen and (min-width:$bp-desktop){
-            text-align: start;
-            max-width: 238px;
-        }
-    }
-   
+  }
 }
 
-
-.accent{
-    color: var(--color_secondary_light);
+.accent {
+  color: var(--color_secondary_light);
 }

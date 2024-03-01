@@ -1,130 +1,117 @@
-.footer{
-    background-color: var(--color_secondary_dark);
+.footer {
+  background-color: var(--color_secondary_dark);
+  position: relative;
+
+  &__nav {
+    display: block;
+    text-align: center;
+    @media screen and (min-width: $bp-desktop) {
+      display: flex;
+      align-items: top;
+      flex-grow: 1;
+      gap: 40px;
+    }
+  }
+  &__menu {
+    display: block;
+    gap: 0;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    margin-top: 15px;
+
+    @media screen and (min-width: $bp-desktop) {
+      gap: 64px;
+      display: flex;
+    }
+  }
+  &__menu1 {
+    padding-left: 0;
+    @media screen and (min-width: $bp-desktop) {
+      padding-left: 40px;
+    }
+  }
+  &__menu2 {
+    display: none;
+    @media screen and (min-width: $bp-desktop) {
+      display: block;
+    }
+  }
+  &__icons {
+    display: flex;
+    gap: 24px;
+    padding-left: 0;
+    justify-content: center;
+    @media screen and (min-width: $bp-desktop) {
+      justify-content: flex-start;
+      padding-left: 70px;
+    }
+  }
+  &__icon {
+    color: white;
+    font-size: 1.5em;
+    &:hover {
+      color: var(--color_secondary_light);
+    }
+  }
+  &__policy {
+    margin-top: 0;
+    margin-right: 10px;
+    padding-left: 0;
+    @media screen and (min-width: $bp-desktop) {
+      padding-left: 40px;
+      margin-top: 35px;
+    }
+  }
+  &__container {
+    display: block;
+    align-items: top;
+    gap: 40px;
+    @media screen and (min-width: $bp-desktop) {
+      display: flex;
+    }
+  }
+  &__logo_text {
+    color: var(--color_secondary_light);
+    font-family: "Play", sans-serif;
+    margin-top: 0;
     position: relative;
+    top: 10px;
+    margin-left: 10px;
+    @media screen and (min-width: $bp-tablet) {
+      margin-top: 35px;
+      top: 10px;
+    }
+    @media screen and (min-width: $bp-desktop) {
+      top: 0px;
+    }
+  }
+  &__after {
+    display: none;
 
+    @media screen and (min-width: $bp-desktop) {
+      display: block;
+      width: 247px;
+      height: 152px;
 
-    &__nav{
-       display: block;
-       text-align: center;
-        @media screen and (min-width: $bp-desktop){
-            display: flex;
-            align-items: top;
-            flex-grow: 1;
-            gap: 40px;
-        }
-
+      position: absolute;
+      content: "";
+      background-repeat: no-repeat;
+      bottom: 0;
+      right: 0;
     }
-    &__menu{
-        display: block;
-        gap: 0;
-        flex-grow: 1;
-        justify-content: space-evenly;
-        margin-top: 15px;
-        
-        @media screen and (min-width: $bp-desktop){
-            gap: 64px;
-            display: flex;
-        }
+  }
+  &__copyright {
+    color: #747272;
+    font-size: 13px;
+    font-weight: 400;
+    position: relative;
+    z-index: 10;
+  }
+  &__contact_item {
+    text-decoration: none;
+    color: var(--color_primary_light);
+    &:hover {
+      color: var(--color_secondary_light);
     }
-    &__menu1{
-        padding-left: 0;
-        @media screen and (min-width: $bp-desktop){
-            padding-left: 40px;
-        }
-    }
-    &__menu2{
-        display: none;
-        @media screen and (min-width: $bp-desktop){
-            display: block;
-        }
-
-    }
-    &__icons{
-        display: flex;
-        gap: 24px;
-        padding-left: 0;
-        justify-content: center;
-        @media screen and (min-width: $bp-desktop){
-            justify-content:flex-start;
-            padding-left: 70px;
-        }
-    }
-    &__icon{
-        color: white;
-        font-size: 1.5em;
-        &:hover{
-            color: var(--color_secondary_light);
-        }
-    }
-    &__policy{
-        margin-top: 0;
-        margin-right: 10px;
-        padding-left: 0;
-        @media screen and (min-width: $bp-desktop){
-            padding-left: 40px;
-            margin-top: 35px;
-        }
-    }
-    &__container{
-        display: block;
-        align-items: top;
-        gap: 40px;
-        @media screen and (min-width: $bp-desktop){
-            display: flex;
-        }
-
-    }
-    &__logo_text{
-        color: var(--color_secondary_light);
-        font-family: 'Play', sans-serif; 
-        margin-top: 0;
-        position: relative;
-        top: 10px;
-        margin-left: 10px;
-        @media screen and (min-width: $bp-tablet){
-            margin-top: 35px;
-            top: 10px;
-        }
-        @media screen and (min-width: $bp-desktop){
-            top: 0px;
-        }
-    }
-    &__after{
-        display: none;
-        
-        @media screen and (min-width: $bp-desktop){
-            display: block;
-            width: 247px;
-            height: 152px;
-            
-            position:absolute;
-            content: '';
-            background-repeat: no-repeat;
-            bottom: 0;
-            right: 0;
-        }
-    }
-    &__copyright{
-        color: #747272;
-        font-size: 13px;
-        font-weight: 400;
-        position: relative;
-        z-index: 10;
-    }
-    &__contact_item{
-        text-decoration: none;
-        color: var(--color_primary_light);
-        &:hover{
-            color: var(--color_secondary_light);
-        }
-    }
+  }
 }
-
-
-
-
-
-
-
-
-

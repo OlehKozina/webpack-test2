@@ -1,40 +1,40 @@
-.button{
-    padding: 16px 32px;
-    background-color:var(--color_secondary_light) ;
-    color: var(--color_primary_light);
-    border-radius: 32px;
-    border:  solid;
-    cursor: pointer;
-    &:hover{
-        background-color: black;
-        color: white;
-    }
-    margin: 20px 0;
+.button {
+  padding: 16px 32px;
+  background-color: var(--color_secondary_light);
+  color: var(--color_primary_light);
+  border-radius: 32px;
+  border: solid;
+  cursor: pointer;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+  margin: 20px 0;
 }
-.modal-btn-close{
-    position: absolute;
-    top: 40px;
-    right: 40px;
+.modal-btn-close {
+  position: absolute;
+  top: 40px;
+  right: 40px;
 }
-.modal-btn-open{
-    // display: block;
-    padding: 16px 32px;
-    cursor: pointer;
-    font-weight: 600;
+.modal-btn-open {
+  padding: 16px 32px;
+  cursor: pointer;
+  font-weight: 600;
 }
-.swiper-button-prev, .swiper-button-next{
-    border: 0;
-    background-color: transparent;
-    display: none;
-   
+.swiper-button-prev,
+.swiper-button-next {
+  border: 0;
+  background-color: transparent;
+  display: none;
 }
 
-.swiper-button-next, .swiper-rtl .swiper-button-prev{
-    right: -20px !important;
-    left: auto;
-    
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: -20px !important;
+  left: auto;
 }
-.swiper-button-prev, .swiper-rtl .swiper-button-next{
-    left: -50px !important;
-    right: auto;
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: -50px !important;
+  right: auto;
 }

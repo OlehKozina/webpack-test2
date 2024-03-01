@@ -1,17 +1,15 @@
-.link{
-    color: var(--color_secondary_dark);
-    text-decoration: none;
-    &:hover{
-        color: var(--color_secondary_light);
-        
-    }
+.link {
+  color: var(--color_secondary_dark);
+  text-decoration: none;
+  &:hover {
+    color: var(--color_secondary_light);
+  }
 }
-.link_footer{
-    color: var(--color_primary_light);
+.link_footer {
+  color: var(--color_primary_light);
+  text-decoration: none;
+  &:hover {
+    color: var(--color_secondary_light);
     text-decoration: none;
-    &:hover{
-        color: var(--color_secondary_light);
-        text-decoration: none;
-    }
+  }
 }
-
