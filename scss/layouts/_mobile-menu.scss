@@ -1,0 +1,51 @@
+.mobile-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transform: translateX(100%);
+    transition: transform 0.5s;
+    &.is-open{
+        transform: translateX(0);
+    }
+    &__logo{
+        margin: 20px 0;
+        color: var(--color_secondary_light);
+        font-family: 'Play', sans-serif;
+    }
+    &__button{
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+        position: absolute;
+        top: 36px;
+        right: 100px;
+        &:hover{
+            color: var(--color_secondary_light);
+        }
+    }
+    &__nav{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px;
+        
+       
+    }
+    &__link{
+        text-decoration: none;
+        color: var(--color_primarydark);
+        &:hover{
+            color: var(--color_secondary_light);
+            
+        }
+    }
+    &__nav-icons{
+        margin-left: 20px;
+        display: flex;
+        gap: 20px;
+    }
+
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Zone</title>
+    <link rel="stylesheet" href="SCSS/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <nav class="header__nav"><a class="link" href="BeautyZoneSite.html">
+                    <p class="header__logo_text">Beauty <br>zone</p>
+                </a>
+                    <ul class="header__menu">
+                        <li><a class="link" href="#About_us">About us</a> </li>
+                        <li><a class="link" href="#Why_us">Why us</a></li>
+                        <li><a class="link" href="#Our_services">Our servies</a></li>
+                        <li><a class="link" href="#Contacts">Contacts</a></li>
+                    </ul>
+                    <address>
+                        <ul class="header__nav-icons">
+                            <li><a  href="tel:+18253337707"><i class="fa-solid fa-phone header__icon"></i></a></li>
+                            <li><a href="https://www.instagram.com/okayne__/" target="_blank"> <i class="fa-brands fa-instagram header__icon"></i> </a></li>
+                            <li><a href="https://www.facebook.com/olliekayne" target="_blank"><i class="fa-brands fa-facebook header__icon"></i></a></li>
+                        </ul>
+                    </address>
+                </nav>
+                <button class="header__burger menu-btn-open" type="button">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="mobile-menu">
+        <i class="mobile-menu__button menu-btn-close fa-solid fa-xmark"></i>
+                    <ul class="mobile-menu__nav">
+                        <li> <p class="mobile-menu__logo">Beauty <br>zone</p></li>
+                        <li><a class="mobile-menu__link menu-btn-close" href="##About_us">About us</a></li>
+                        <li><a class="mobile-menu__link menu-btn-close" href="#Why_us">Why us</a></li>
+                        <li><a class="mobile-menu__link menu-btn-close" href="#Our_services">Our procedures</a></li>
+                        <li><a class="mobile-menu__link menu-btn-close" href="#Contacts">Contacts</a></li>
+                    </ul>
+                    <address>
+                        <ul class="mobile-menu__nav-icons">
+                            <li><a  href="tel:+18253337707"><i class="fa-solid fa-phone header__icon"></i></a></li>
+                            <li><a href="https://www.instagram.com/okayne__/" target="_blank"> <i class="fa-brands fa-instagram header__icon"></i> </a></li>
+                            <li><a href="https://www.facebook.com/olliekayne" target="_blank"><i class="fa-brands fa-facebook header__icon"></i></a></li>
+                        </ul>
+                    </address>
+                </div>
+            </div>      
+        </div>
+    </header>
+    <main>
+        <section class="hero-section" style="background: linear-gradient(0deg, #FFFFFF 1.62%, rgba(255, 255, 255, 0.850898) 5.31%, rgba(255, 255, 255, 0.193204) 58.65%, rgba(255, 255, 255, 0) 72.78%),
+        url('./html_images/hero-title_image.jpg'); background-repeat: no-repeat;
+       background-position: center top;
+       background-size: cover;">
+            <div class="container">
+                <p class="hero-section__name">Cosmetology clinic</p>
+                <h1 class="hero-section__title" lang="en">Beauty Zone</h1>
+                <button class="hero-section__button modal-btn-open button" type="button" >Request a call</button>
+                <p class="hero-section__under_call_button">Sign up and get a free consultation from our beautician</p>
+            </div>
+        </section>
+        <section class="intro-section section" id="About_us">
+            <div class="container">
+            <div class="intro-section__transformation">
+                <div class="intro-section__transformation-text">
+                    <h2 class="intro-section__intro-title section-titles">Transform in <br><span class="accent">beauty zone!</span></h2>
+                    <p class="intro-section__info">Our cosmetology clinic offers you professional services for facial and body skin care.</p>
+                    <p class="intro-section__info">At Beauty zone, we guarantee the highest quality standards and pleasant service. Our cosmetology procedures and drugs will help you maintain your beauty and youth. Beauty is with us forever!</p>
+                </div>
+                <ul class="intro-section__transformation-pics">
+                    <li><img class="intro-section__image" src="./html_images/before.jpg" alt=""></li>
+                    <li><img class="intro-section__star2" src="./html_images/Star 1.svg" alt="">
+                    </li>
+                    <li><img class="intro-section__image2" src="./html_images/after.jpg" alt=""></li>
+                    <li> <img class="intro-section__star" src="./html_images/Star 2.svg" alt="">
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </section>
+        <section class="why-section section" id="Why_us"> 
+            <div class="container">
+                <h2 class="section-titles centered why-section__title">Why people <span class="accent">choose us</span></h2>
+                <div class="why-section__reasons-container">        
+                <ul class="why-section__reasons">
+                    <li class="why-section__reason"> <article class="why-section__reason-article"><img src="./html_images/reason1.svg" alt="">
+                        <div class="why-section__reason-text">
+                            <p>All our cosmetologists have higher medical education
+                                and work experience of 5 years or more</p>
+                        </div></article></li>
+                    <li class="why-section__reason"> <article class="why-section__reason-article"><img src="./html_images/reason2.svg" alt="">
+                        <div class="why-section__reason-text">
+                            <p>We use only professional equipment and time-tested cosmetics</p>
+                        </div><article></li>
+                    <li class="why-section__reason"> <article class="why-section__reason-article"><img src="./html_images/reason3.svg" alt="">
+                        <div class="why-section__reason-text"> 
+                            <p>Our goal is to emphasize the advantages and hide the disadvantages, but not to rework</p>
+                        </div></article></li>
+                </ul>
+            </div>
+            </div>
+            <div class="wave">
+                <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,90L24,78.3C48,67,96,43,144,31.7C192,20,240,20,288,21.7C336,23,384,27,432,38.3C480,50,528,70,576,66.7C624,63,672,37,720,21.7C768,7,816,3,864,8.3C912,13,960,27,1008,38.3C1056,50,1104,60,1152,65C1200,70,1248,70,1296,60C1344,50,1392,30,1440,28.3C1488,27,1536,43,1584,51.7C1632,60,1680,60,1728,56.7C1776,53,1824,47,1872,50C1920,53,1968,67,2016,65C2064,63,2112,47,2160,48.3C2208,50,2256,70,2304,73.3C2352,77,2400,63,2448,55C2496,47,2544,43,2592,35C2640,27,2688,13,2736,8.3C2784,3,2832,7,2880,18.3C2928,30,2976,50,3024,60C3072,70,3120,70,3168,61.7C3216,53,3264,37,3312,30C3360,23,3408,27,3432,28.3L3456,30L3456,100L3432,100C3408,100,3360,100,3312,100C3264,100,3216,100,3168,100C3120,100,3072,100,3024,100C2976,100,2928,100,2880,100C2832,100,2784,100,2736,100C2688,100,2640,100,2592,100C2544,100,2496,100,2448,100C2400,100,2352,100,2304,100C2256,100,2208,100,2160,100C2112,100,2064,100,2016,100C1968,100,1920,100,1872,100C1824,100,1776,100,1728,100C1680,100,1632,100,1584,100C1536,100,1488,100,1440,100C1392,100,1344,100,1296,100C1248,100,1200,100,1152,100C1104,100,1056,100,1008,100C960,100,912,100,864,100C816,100,768,100,720,100C672,100,624,100,576,100C528,100,480,100,432,100C384,100,336,100,288,100C240,100,192,100,144,100C96,100,48,100,24,100L0,100Z"></path></svg>
+            </div>
+        </section>
+        <section id="Our_services">
+            <div class="container">
+                <h2 class="services-section__title section-titles centered">Our <span class="accent">procedures</span></h2>
+                <div class="wrapper">
+                    <i id="left" class="fa-solid fa-angle-left"></i>
+                        <ul class="carousel">
+                            <li class="card">
+                                <img src="html_images/2.png" alt="First"></li>
+                            <li class="card">
+                                <img src="html_images/Injection methods.png" alt="Second"></li>
+                            <li class="card">
+                                <img src="html_images/Hygienic cleaning.png" alt="Third"></li>
+                            <li class="card">
+                                <img src="html_images/2.png" alt="First"></li>
+                            <li class="card">
+                                <img src="html_images/Injection methods.png" alt="Second"></li>
+                            <li class="card">
+                                <img src="html_images/Hygienic cleaning.png" alt="Third"></li>
+                        </ul>
+                    <i id="right" class="fa-solid fa-angle-right"></i>  
+                </div>
+            </div>
+        </section>
+        <section class="howtofind_section section" id="Contacts">
+            <div class="howtofind_section__container container">
+                <div class="howtofind_section__-container">
+                    <h2 class="section-titles centered">How to <span class="accent">find us</span></h2>
+                <div class="howtofind_section__howtofind">
+                    <img class="howtofind_section__map" src="html_images/карта.png" alt="map">
+                    <div class="howtofind_section__text">
+                        <p class="howtofind_section__form-title">Sign up <span class="accent">for free</span>
+                            and get a present</p>
+                            <form name="contact-form" autocomplete="off" novalidate>
+                                <div class="howtofind_section__form-field">
+                                    <label class="howtofind_section__form-label visually-hidden" for="user-name">Your name</label>
+                                    <input class="howtofind_section__input" type="text" id="user-name" name="user-name" placeholder="Your name">
+                                  </div>
+                                  <div class="howtofind_section__form-field">
+                                    <label class="form-label visually-hidden" for="phone">Phone</label>
+                                    <input class="howtofind_section__input" type="tel" id="phone" name="phone" placeholder="Your phone number">
+                                 </div>
+                                  <div class="howtofind_section__form-field">
+                                    <label class="howtofind_section__form-label visually-hidden" for="e-mail">E-mail</label>
+                                  <input class="howtofind_section__input" type="email" id="e-mail" name="e-mail" placeholder="Your e-mail">
+                                  <button class="howtofind_section__form_button button" type="submit">Sign up for free</button>
+                        <p class="howtofind_section__approve">By clicking the button, I agree to the privacy policy</p>
+                                  </div>
+                                  
+                            </form>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <nav class="footer__nav">
+                    <a class="link" href="BeautyZoneSite.html">
+                        <p class="footer__logo_text">Beauty <br>zone</p>
+                    </a>
+                    <div class="footer__menu">
+                        <ul class = "footer__menu1">
+                            <li><a class="link_footer" href="#About_us">About us</a> </li>
+                            <li><a class="link_footer" href="#Why_us">Why us</a></li>
+                            <li><a class="link_footer" href="#Our_services">Our procedures</a></li>
+                            <li><a class="link_footer" href="#Contacts">Contacts</a></li>
+                        </ul>
+                        <address>
+                            <ul class = "footer__menu2">
+                                <li><a class="footer__contact_item" href="tel:+18253337707"> + 1(325)-777-3333 </a> </li>
+                                <li><a class="footer__contact_item" href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a></li>
+                                <li><a class="footer__contact_item" href="https://maps.app.goo.gl/2UwzakEpYmpTCDCZ9" target="_blank">13000 67 st NW<br> Edmonton, AB</a></li>
+                            </ul>
+                            <ul class="footer__icons">
+                                <li><a  href="tel:+18253337707"><i class="fa-solid fa-phone footer__icon"></i></a></li>
+                                <li><a href="https://www.instagram.com/okayne__/" target="_blank"> <i class="fa-brands fa-instagram footer__icon"></i> </a></li>
+                                <li><a href="https://www.facebook.com/olliekayne" target="_blank"><i class="fa-brands fa-facebook footer__icon"></i></a></li>
+                            </ul>
+                        </address>
+                    </div>
+                    <ul class = "footer__policy">
+                        <li><a class="link_footer" href="#" target="_blank">Privacy policy</a></li>
+                        <li><p class="footer__copyright" >&copy;Data is protected!</p></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <img class="footer__after" src="./html_images/medicine.png" alt="">
+    </footer>
+    <div class="backdrop is-hidden">
+        <div class="modal">
+           <i class="modal-btn-close fa-solid fa-xmark modal__cross-button "></i>
+            <h2 class="modal__form-title section__titles">Request a call</h2>
+            <p class="modal__form-instruction">Sign up<span>for free</span> and get a present</p>
+            <form class="contact-form" name="contact-form" autocomplete="off" validate>
+              <div class="form-field">
+                <label class="form-field__label visually-hidden" for="user-name">Name</label>
+                <input class="form-field__input" 
+                    type="text" 
+                    id="user-name" 
+                    name="user-name" 
+                    placeholder="Name" 
+                    minlength="2"
+                    maxlength="20"
+                    required>
+              </div>
+             <div class="form-field">
+                <label class="form-field__label visually-hidden" for="phone">Phone</label>
+                <input class="form-field__input" 
+                    type="tel" 
+                    id="phone" 
+                    name="phone" 
+                    placeholder="Phone" 
+                    pattern="^\+[0-9]{12}"
+                    required>
+             </div>
+              <div class="form-field ">
+                <label class="form-field__label visually-hidden" for="e-mail">E-mail</label>
+              <input class="form-field__input" type="email" id="e-mail" name="e-mail" placeholder="E-mail" required>
+              </div>
+             <button class="form-field__button modal-btn-open button" type="submit">Sign up for free</button>
+             <p class="form-field__terms">By clicking the button, I agree to the  <a class="form-field__terms-link" href="#">privacy policy</a></p>
+            </form>
+        </div> 
+     </div>
+     <script src="./JS/slider.js"></script>
+     <script src="./JS/modal.js"></script>
+     <script src="./JS/mobile-menu.js"></script>
+</body>
+</html>
