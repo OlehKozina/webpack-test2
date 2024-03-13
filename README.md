@@ -19,4 +19,4 @@ Consists of logo, navigation buttons, social media buttons and a picture.
 
 Added adaptive design to each section.
 
-An easy way to browse the site is by following the link https://olegkozina.github.io/BeautyZone-Site/
+An easy way to browse the site is by following the link https://olehkozina.github.io/BeautyZone-Site/
