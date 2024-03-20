@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty Zone</title>
-    <link rel="stylesheet" href="./css/main.min.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -98,23 +97,7 @@
       </div>
     </header>
     <main>
-      <!--  Add inline style because this picture didn't appear on github pages when added through css -->
-      <section
-        class="hero-section"
-        style="
-          background: linear-gradient(
-              0deg,
-              #ffffff 1.62%,
-              rgba(255, 255, 255, 0.850898) 5.31%,
-              rgba(255, 255, 255, 0.193204) 58.65%,
-              rgba(255, 255, 255, 0) 72.78%
-            ),
-            url('./html_images/hero-title_image.jpg');
-          background-repeat: no-repeat;
-          background-position: center top;
-          background-size: cover;
-        "
-      >
+      <section class="hero-section">
         <div class="container">
           <p class="hero-section__name">Cosmetology clinic</p>
           <h1 class="hero-section__title" lang="en">Beauty Zone</h1>
@@ -150,28 +133,28 @@
               <li>
                 <img
                   class="intro-section__image"
-                  src="./html_images/before.jpg"
+                  src="images/before.jpg"
                   alt=""
                 />
               </li>
               <li>
                 <img
                   class="intro-section__star2"
-                  src="./html_images/star_big.svg"
+                  src="images/star_big.svg"
                   alt=""
                 />
               </li>
               <li>
                 <img
                   class="intro-section__image2"
-                  src="./html_images/after.jpg"
+                  src="images/after.jpg"
                   alt=""
                 />
               </li>
               <li>
                 <img
                   class="intro-section__star"
-                  src="./html_images/star_small.svg"
+                  src="images/star_small.svg"
                   alt=""
                 />
               </li>
@@ -188,7 +171,7 @@
             <ul class="why-section__reasons">
               <li class="why-section__reason">
                 <article class="why-section__reason-article">
-                  <img src="./html_images/reason_first.svg" alt="" />
+                  <img src="images/reason_first.svg" alt="" />
                   <div class="why-section__reason-text">
                     <p>
                       All our cosmetologists have higher medical education and
@@ -199,7 +182,7 @@
               </li>
               <li class="why-section__reason">
                 <article class="why-section__reason-article">
-                  <img src="./html_images/reason_second.svg" alt="" />
+                  <img src="images/reason_second.svg" alt="" />
                   <div class="why-section__reason-text">
                     <p>
                       We use only professional equipment and time-tested
@@ -210,7 +193,7 @@
               </li>
               <li class="why-section__reason">
                 <article class="why-section__reason-article">
-                  <img src="./html_images/reason_third.svg" alt="" />
+                  <img src="images/reason_third.svg" alt="" />
                   <div class="why-section__reason-text">
                     <p>
                       Our goal is to emphasize the advantages and hide the
@@ -253,22 +236,22 @@
             <i id="left" class="fa-solid fa-angle-left"></i>
             <ul class="carousel">
               <li class="card">
-                <img src="html_images/face_masks.png" alt="First" />
+                <img src="images/face_masks.png" alt="First" />
               </li>
               <li class="card">
-                <img src="html_images/Injection_methods.png" alt="Second" />
+                <img src="images/Injection_methods.png" alt="Second" />
               </li>
               <li class="card">
-                <img src="./html_images/hygienic_cleaning.png" alt="Third" />
+                <img src="images/hygienic_cleaning.png" alt="Third" />
               </li>
               <li class="card">
-                <img src="html_images/face_masks.png" alt="First" />
+                <img src="images/face_masks.png" alt="First" />
               </li>
               <li class="card">
-                <img src="html_images/Injection_methods.png" alt="Second" />
+                <img src="images/Injection_methods.png" alt="Second" />
               </li>
               <li class="card">
-                <img src="./html_images/hygienic_cleaning.png" alt="Third" />
+                <img src="images/hygienic_cleaning.png" alt="Third" />
               </li>
             </ul>
             <i id="right" class="fa-solid fa-angle-right"></i>
@@ -284,7 +267,7 @@
             <div class="howtofind_section__howtofind">
               <img
                 class="howtofind_section__map"
-                src="./html_images/map.png"
+                src="images/map.png"
                 alt="map"
               />
               <div class="howtofind_section__text">
@@ -423,7 +406,7 @@
           </nav>
         </div>
       </div>
-      <img class="footer__after" src="./html_images/medicine.png" alt="" />
+      <img class="footer__after" src="images/medicine.png" alt="" />
     </footer>
     <div class="backdrop is-hidden">
       <div class="modal">
@@ -493,8 +476,5 @@
         </form>
       </div>
     </div>
-    <script src="./js/slider.js"></script>
-    <script src="./js/modal.js"></script>
-    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
